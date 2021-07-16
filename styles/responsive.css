@@ -1,0 +1,109 @@
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+    .title h1{
+        margin-top: 8%;
+        font-size: 52px;
+    }
+    .title h2{
+        font-size: 26px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .image img{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .description #email{
+        width: 60%;
+        font-size: 20px;
+    }
+    .description #submit{
+        width: 40%;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 655px) and (max-width: 900px){
+    .title h1{
+        margin-top: 10%;
+        font-size: 42px;
+    }
+    .title h2{
+        font-size: 22px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .image img{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .description{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+    .description #email{
+        width: 80%;
+        font-size: 18px;
+    }
+    .description #submit{
+        width: 40%;
+        margin-top: 2%;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 654px){
+    .title h1{
+        margin-top: 10%;
+        font-size: 34px;
+    }
+    .title h2{
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .image img{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .description{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+    .description #email{
+        width: 90%;
+    }
+    .description #submit{
+        width: 50%;
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 529px){
+    .title h1{
+        margin-top: 20%;
+        font-size: 32px;
+    }
+    .title h2{
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .image img{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .description{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+    .description #email{
+        width: 90%;
+        font-size: 14px;
+        text-indent: 10px;
+    }
+    .description #submit{
+        width: 50%;
+        margin-top: 2%;
+        font-size: 14px;
+    }
+}
